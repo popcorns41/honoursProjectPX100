@@ -38,4 +38,10 @@ colcon build --packages-select px_bridge_pkg
 source install/setup.bash
 ```
 
+## Colcon rebuild of pincher mode or px100.yaml files
 
+```bash
+cd ~/interbotix_ws
+colcon build --packages-select interbotix_xsarm_control
+source install/setup.bash
+```
